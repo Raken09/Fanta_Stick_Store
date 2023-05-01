@@ -1,0 +1,64 @@
+.tituloGeneral {
+    font-family: 'Poppins', sans-serif;
+    @apply mt-6 mb-6 text-center text-3xl font-bold text-gray-900;
+}
+
+.formGeneral {
+    @apply pb-4;
+}
+
+.textoGeneral{
+    font-family: 'Poppins', sans-serif;
+    @apply block text-gray-900 text-lg;
+}
+
+.inputGeneral {
+    font-family: 'Poppins', sans-serif;
+    @apply min-w-full relative block px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:z-10 sm:text-sm transition-all;
+}
+.inputGeneralList {
+    font-family: 'Poppins', sans-serif;
+    @apply appearance-none w-1/2 relative px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:z-10 sm:text-sm transition-all;
+}
+
+.btnGeneral {
+    font-family: 'Poppins', sans-serif;
+    @apply group relative w-auto flex justify-center py-2 px-6 border border-transparent font-semibold rounded-md shadow-md text-white text-xl bg-yellow-600 bg-opacity-80 hover:bg-yellow-700 hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all;
+}
+
+.btnGeneralList {
+    font-family: 'Poppins', sans-serif;
+    @apply group relative w-2/6 flex justify-center py-2 px-6 border border-transparent font-semibold rounded-md shadow-md text-white text-xl bg-yellow-600 bg-opacity-80 hover:bg-yellow-700 hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all;
+}
+
+.btnGoogle {
+    font-family: 'Poppins', sans-serif;
+    @apply group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md shadow-md text-gray-700 bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500;
+}
+
+.linkGeneral {
+    font-family: 'Poppins', sans-serif;
+    @apply font-medium text-blue-700 hover:text-white transition-all;
+}
+
+.linkGeneralBlue {
+    font-family: 'Poppins', sans-serif;
+    @apply font-medium text-blue-900 hover:text-blue-600 transition-all pb-4;
+}
+
+.btnGeneralNav {
+    font-family: 'Poppins', sans-serif;
+    @apply w-auto justify-start py-2 px-6 border border-transparent font-semibold rounded-md text-white text-xl 
+    bg-yellow-600 bg-opacity-80 hover:bg-yellow-700 hover:bg-opacity-75 focus:outline-none focus:ring-2 
+    focus:ring-offset-2 focus:ring-indigo-500 transition-all shadow-md;
+}
+
+.linkGeneralNav {
+    font-family: 'Poppins', sans-serif;
+    @apply font-medium text-blue-700 hover:bg-indigo-400 hover:text-white p-2 px-6 rounded-md transition-all float-right;
+}
+
+.linkGeneralList {
+    font-family: 'Poppins', sans-serif;
+    @apply font-medium text-blue-800 hover:text-blue-500 transition-all;
+}
